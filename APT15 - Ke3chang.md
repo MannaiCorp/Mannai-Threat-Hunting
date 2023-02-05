@@ -47,3 +47,4 @@ Enterprise|T1071,.004|Application Layer Protocol:DNS|Ke3chang malware RoyalDNS h
 |Enterprise|T1569,.002|System Services: Service Execution|Ke3chang has used a tool known as RemoteExec (similar to PsExec) to remotely execute batch scripts and binaries.|
 |Enterprise|T1078|Valid Accounts|Ke3chang has used credential dumpers or stealers to obtain legitimate credentials, which they used to gain access to victim accounts.|
 |Enterprise|T1078,.004|Cloud Accounts|Ke3chang has used compromised credentials to sign into victims’ Microsoft 365 accounts.|
+
