@@ -19,3 +19,9 @@
 |Enterprise|T1053,.005|Scheduled Task/Job: Scheduled Task|BITTER has used scheduled tasks for persistence and execution.|
 |Enterprise|T1608,.001|Stage Capabilities: Upload Malware|BITTER has registered domains to stage payloads.|
 |Enterprise|T1204,.002|User Execution: Malicious File|BITTER has attempted to lure victims into opening malicious attachments delivered via spearphishing.|
+
+## Software
+| ID | Name | Techniques |
+|:------:|:--:|:---:|
+|S1013|ZxxZ|Data from Local System, Deobfuscate/Decode Files or Information, Ingress Tool Transfer, Masquerading: Masquerade Task or Service, Native API, Obfuscated Files or Information, Phishing: Spearphishing Attachment, Process Discovery, Query Registry, Scheduled Task/Job: Scheduled Task, Software Discovery: Security Software Discovery, System Information Discovery, System Owner/User Discovery, User Execution: Malicious File|
+
