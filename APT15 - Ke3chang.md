@@ -18,9 +18,7 @@ Enterprise|T1071,.004|Application Layer Protocol:DNS|Ke3chang malware RoyalDNS h
 |Enterprise|T1005|Data from Local System|Ke3chang gathered information and files from local directories for exfiltration.|
 |Enterprise|T1140|Deobfuscate/Decode Files or Information|Ke3chang has deobfuscated Base64-encoded shellcode strings prior to loading them.|
 |Enterprise|T1587,.001|Develop Capabilities: Malware|Ke3chang has developed custom malware that allowed them to maintain persistence on victim networks.|
-
-|Enterprise|T1055,.001|Develop Capabilities: Malware|Ke3chang has developed custom malware that allowed them to maintain persistence on victim networks.|
-
-|Enterprise|T1505|.003|Server Software Component: Web Shell|BackdoorDiplomacy has used web shells to establish an initial foothold and for lateral movement within a victim's system.|
-
-|Enterprise|T1049|System Network Connections Discovery|BackdoorDiplomacy has used NetCat and PortQry to enumerate network connections and display the status of related TCP and UDP ports.|
+|Enterprise|T1114,.002|Email Collection: Remote Email Collection|Ke3chang has used compromised credentials and a .NET tool to dump data from Microsoft Exchange mailboxes.|
+|Enterprise	|T1041|
+Exfiltration Over C2 Channel|
+Ke3chang transferred compressed and encrypted RAR files containing exfiltration through the established backdoor command and control channel during operations.|
