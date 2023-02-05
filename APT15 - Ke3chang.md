@@ -1,5 +1,6 @@
 # Associated Group Descriptions
-## Techniques Used
+
+
 | Domain | ID | Name  | Use |
 |:------:|:--:|:-----:|:---:|
 |Enterprise|T1087,.001|Account Discovery: Local Account|Ke3chang performs account discovery using commands such as net localgroup administrators and net group "REDACTED" /domain on specific permissions groups.|
@@ -48,3 +49,4 @@ Enterprise|T1071,.004|Application Layer Protocol:DNS|Ke3chang malware RoyalDNS h
 |Enterprise|T1078|Valid Accounts|Ke3chang has used credential dumpers or stealers to obtain legitimate credentials, which they used to gain access to victim accounts.|
 |Enterprise|T1078,.004|Cloud Accounts|Ke3chang has used compromised credentials to sign into victims’ Microsoft 365 accounts.|
 
+## Software
