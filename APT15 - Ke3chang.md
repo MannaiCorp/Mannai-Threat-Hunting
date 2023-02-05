@@ -1,5 +1,5 @@
 # Associated Group Descriptions
-
+## Techniques Used
 
 | Domain | ID | Name  | Use |
 |:------:|:--:|:-----:|:---:|
