@@ -21,3 +21,10 @@ Enterprise|T1071,.004|Application Layer Protocol:DNS|Ke3chang malware RoyalDNS h
 |Enterprise|T1114,.002|Email Collection: Remote Email Collection|Ke3chang has used compromised credentials and a .NET tool to dump data from Microsoft Exchange mailboxes.|
 |Enterprise	|T1041|Exfiltration Over C2 Channel|Ke3chang transferred compressed and encrypted RAR files containing exfiltration through the established backdoor command and control channel during operations.|
 |Enterprise	|T1190|Exploit Public-Facing Application|Ke3chang has compromised networks by exploiting Internet-facing applications, including vulnerable Microsoft Exchange and SharePoint servers.|
+|Enterprise|T1133|External Remote Services|
+Ke3chang has gained access through VPNs including with compromised accounts and stolen VPN certificates.|
+|Enterprise|T1083|File and Directory Discovery|Ke3chang uses command-line interaction to search files and directories.|
+|Enterprise|T1105|Ingress Tool Transfer|Ke3chang has used tools to download files to compromised machines.|
+|Enterprise|T1056,.001|Input Capture: Keylogging|Ke3chang has used keyloggers.[2][4]
+|Enterprise|T1036,.002|Masquerading: Right-to-Left Override|Ke3chang has used the right-to-left override character in spearphishing attachment names to trick targets into executing .scr and .exe files.|
+|Enterprise|T1036,.005|Masquerading: Match Legitimate Name or Location|Ke3chang has dropped their malware into legitimate installed software paths including: C:\ProgramFiles\Realtek\Audio\HDA\AERTSr.exe, C:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitRdr64.exe, C:\Program Files (x86)\Adobe\Flash Player\AddIns\airappinstaller\airappinstall.exe, and C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd64.exe.|
