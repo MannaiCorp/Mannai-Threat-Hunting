@@ -20,3 +20,4 @@ Enterprise|T1071,.004|Application Layer Protocol:DNS|Ke3chang malware RoyalDNS h
 |Enterprise|T1587,.001|Develop Capabilities: Malware|Ke3chang has developed custom malware that allowed them to maintain persistence on victim networks.|
 |Enterprise|T1114,.002|Email Collection: Remote Email Collection|Ke3chang has used compromised credentials and a .NET tool to dump data from Microsoft Exchange mailboxes.|
 |Enterprise	|T1041|Exfiltration Over C2 Channel|Ke3chang transferred compressed and encrypted RAR files containing exfiltration through the established backdoor command and control channel during operations.|
+|Enterprise	|T1190|Exploit Public-Facing Application|Ke3chang has compromised networks by exploiting Internet-facing applications, including vulnerable Microsoft Exchange and SharePoint servers.|
