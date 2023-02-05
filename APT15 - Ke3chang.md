@@ -39,3 +39,11 @@ Enterprise|T1071,.004|Application Layer Protocol:DNS|Ke3chang malware RoyalDNS h
 |Enterprise|T1018|Remote System Discovery|Ke3chang has used network scanning and enumeration tools, including Ping.|
 |Enterprise|T1558,.001|Steal or Forge Kerberos Tickets: Golden Ticket|Ke3chang has used Mimikatz to generate Kerberos golden tickets.|
 |Enterprise|T1082|System Information Discovery|Ke3chang performs operating system information discovery using systeminfo and has used implants to identify the system language and computer name.|
+|Enterprise|T1614,.001|System Location Discovery: System Language Discovery|Ke3chang has used implants to collect the system language ID of a compromised machine.|
+|Enterprise|T1016|System Network Configuration Discovery|Ke3chang has performed local network configuration discovery using ipconfig.|
+|Enterprise|T1049|System Network Connections Discovery|Ke3chang performs local network connection discovery using netstat.|
+|Enterprise|T1033|System Owner/User Discovery|Ke3chang has used implants capable of collecting the signed-in username.|
+|Enterprise|T1007|System Service Discovery|Ke3chang performs service discovery using net start commands.|
+|Enterprise|T1569,.002|System Services: Service Execution|Ke3chang has used a tool known as RemoteExec (similar to PsExec) to remotely execute batch scripts and binaries.|
+|Enterprise|T1078|Valid Accounts|Ke3chang has used credential dumpers or stealers to obtain legitimate credentials, which they used to gain access to victim accounts.|
+|Enterprise|T1078,.004|Cloud Accounts|Ke3chang has used compromised credentials to sign into victims’ Microsoft 365 accounts.|
