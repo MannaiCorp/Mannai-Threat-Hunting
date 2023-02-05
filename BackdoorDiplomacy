@@ -1,3 +1,5 @@
 
 Domain, ID, Name, USe
-Enterprise, T1074, .001, Data Staged: Local Data Staging, BackdoorDiplomacy has copied files of interest to the main drive's recycle bin.[1] 
+Enterprise, T1074, .001, Data Staged: Local Data Staging, BackdoorDiplomacy has copied files of interest to the main drive's recycle bin.[1]
+Enterprise, T1074, Data Staged: Local Data Staging, BackdoorDiplomacy has copied files of interest to the main drive's recycle bin.[1] 
+Enterprise, T1074, Data Staged: Local Data Staging, BackdoorDiplomacy has copied files of interest to the main drive's recycle bin.[1] 
