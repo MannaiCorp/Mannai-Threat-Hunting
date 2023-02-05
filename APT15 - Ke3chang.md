@@ -21,10 +21,22 @@ Enterprise|T1071,.004|Application Layer Protocol:DNS|Ke3chang malware RoyalDNS h
 |Enterprise|T1114,.002|Email Collection: Remote Email Collection|Ke3chang has used compromised credentials and a .NET tool to dump data from Microsoft Exchange mailboxes.|
 |Enterprise	|T1041|Exfiltration Over C2 Channel|Ke3chang transferred compressed and encrypted RAR files containing exfiltration through the established backdoor command and control channel during operations.|
 |Enterprise	|T1190|Exploit Public-Facing Application|Ke3chang has compromised networks by exploiting Internet-facing applications, including vulnerable Microsoft Exchange and SharePoint servers.|
-|Enterprise|T1133|External Remote Services|
-Ke3chang has gained access through VPNs including with compromised accounts and stolen VPN certificates.|
+|Enterprise|T1133|External Remote Services|Ke3chang has gained access through VPNs including with compromised accounts and stolen VPN certificates.|
 |Enterprise|T1083|File and Directory Discovery|Ke3chang uses command-line interaction to search files and directories.|
 |Enterprise|T1105|Ingress Tool Transfer|Ke3chang has used tools to download files to compromised machines.|
 |Enterprise|T1056,.001|Input Capture: Keylogging|Ke3chang has used keyloggers.[2][4]
 |Enterprise|T1036,.002|Masquerading: Right-to-Left Override|Ke3chang has used the right-to-left override character in spearphishing attachment names to trick targets into executing .scr and .exe files.|
 |Enterprise|T1036,.005|Masquerading: Match Legitimate Name or Location|Ke3chang has dropped their malware into legitimate installed software paths including: C:\ProgramFiles\Realtek\Audio\HDA\AERTSr.exe, C:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitRdr64.exe, C:\Program Files (x86)\Adobe\Flash Player\AddIns\airappinstaller\airappinstall.exe, and C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd64.exe.|
+|Enterprise|T1027|Obfuscated Files or Information|Ke3chang has used Base64-encoded shellcode strings.|
+|Enterprise|T1588,.002|Obtain Capabilities: Tool|
+Ke3chang has obtained and used tools such as Mimikatz.|
+|Enterprise|T1003,.001|OS Credential Dumping: LSASS Memory|Ke3chang has dumped credentials, including by using Mimikatz.|
+|Enterprise|T1003,.002|OS Credential Dumping: Security Account Manager|Ke3chang has dumped credentials, including by using gsecdump.|
+|Enterprise|T1003,.003|OS Credential Dumping: NTDS|Ke3chang has used NTDSDump and other password dumping tools to gather credentials.|
+|Enterprise|T1003,.004|OS Credential Dumping: LSA Secrets|Ke3chang has dumped credentials, including by using gsecdump.|
+|Enterprise|T1069,.002|Permission Groups Discovery: Domain Groups|Ke3chang performs discovery of permission groups net group /domain.|
+|Enterprise|T1057|Process Discovery|Ke3chang performs process discovery using tasklist commands.|
+|Enterprise|T1021;.002|Remote Services: SMB/Windows Admin Shares|Ke3chang actors have been known to copy files to the network shares of other computers to move laterally.|
+|Enterprise|T1018|Remote System Discovery|Ke3chang has used network scanning and enumeration tools, including Ping.|
+|Enterprise|T1558,.001|Steal or Forge Kerberos Tickets: Golden Ticket|Ke3chang has used Mimikatz to generate Kerberos golden tickets.|
+||Enterprise|T1082|System Information Discovery|Ke3chang performs operating system information discovery using systeminfo and has used implants to identify the system language and computer name.|
