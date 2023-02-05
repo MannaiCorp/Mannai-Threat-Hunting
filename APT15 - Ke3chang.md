@@ -4,10 +4,8 @@
 |:------:|:--:|:-----:|:---:|
 |Enterprise|T1087,.001|Account Discovery: Local Account|Ke3chang performs account discovery using commands such as net localgroup administrators and net group "REDACTED" /domain on specific permissions groups.|
 |Enterprise|T1087,.002|Account Discovery: Domain Account|Ke3chang performs account discovery using commands such as net localgroup administrators and net group "REDACTED" /domain on specific permissions groups.|
-
 Enterprise|T1071,.001|Application Layer Protocol: Web Protocols|Ke3chang malware including RoyalCli and BS2005 have communicated over HTTP with the C2 server through Internet Explorer (IE) by using the COM interface IWebBrowser2.|
 Enterprise|T1071,.004|Application Layer Protocol:DNS|Ke3chang malware RoyalDNS has used DNS for C2.|
-
 |Enterprise|T1560|Archive Collected Data|The Ke3chang group has been known to compress data before exfiltration.|
 |Enterprise|T1560,.001|Archive via Utility|Ke3chang is known to use 7Zip and RAR with passwords to encrypt data prior to exfiltration.|
 
